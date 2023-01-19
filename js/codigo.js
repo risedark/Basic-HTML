@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html>
-    
-    <head>
-        <meta charset="UTF-8" />
-        <title> Piedra Papel o Tijera</title>
-        <script>
+
             // 1 es piedra, papel es 2 y tijera 3
             function aletorio (min,max){
                 return Math.floor(Math.random() * (max-min+1)+min)
@@ -67,19 +61,19 @@
                 }
 
            
-                alert("El Rival eligio" + jugada(pc))
+            alert("El Rival eligio" + jugada(pc))
 
-                 //Combate
-                if( jugador == pc){
+             //Combate
+            if( jugador == pc){
                  alert("Empate")
                  ties++;
-                 } else if (jugador == 1 && pc == 3 || jugador == 2 && pc == 1 || jugador == 3 && pc == 2  ){
+            } else if (jugador == 1 && pc == 3 || jugador == 2 && pc == 1 || jugador == 3 && pc == 2  ){
                  alert("Ganaste")
                  wins= wins + 1
-                 } else{
+            } else{
                  alert("Perdiste")
                  loses= loses + 1
-                 }
+            }
                  
                  matches= wins + loses + ties;
 
@@ -91,12 +85,4 @@
             alert ("Ganaste " + wins + " veces. Perdistes " + loses + " veces. Empataron " + ties + " veces" )
         }
             
-        </script>
-
-    </head>
-    <body>
-        <div>
-            <h1> Piedra Papel o Tijera</h1>
-        </div>
-    </body>
-</html>
+        
