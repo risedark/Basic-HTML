@@ -1,2 +1,2 @@
 # Basic-HTML 
-*rock, scissor and paper game*
+*rock, scissors and paper game*
